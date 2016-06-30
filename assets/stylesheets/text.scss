@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+.hero{
+  background: url('../images/flowers1.jpeg');
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.scroll img {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width:30px;
+}
+
+.hello img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 250px;
+  margin-top: -125px;
+  margin-left: -235px;
+}
+
+.about {
+  height: 55vh;
+  text-align: left;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.about img {
+  float: left;
+  margin: auto;
+  margin-right: 30px;
+  width: 200px;
+}
+
+h1 {
+  padding-top: 30px;
+  font-family: Georgia;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Georgia;
+  max-width: 600px;
+}
+
+.contact {
+  padding: 30px 0px;
+  text-align: center;
+  background: rgba(225, 209, 144, 1);
+}
+
+.contact img {
+  padding-right: 10px;
+  width: 35px;
+}
