@@ -1,62 +1,85 @@
 body {
-  margin: 0;
-}
-
-.hero{
-  background: url('../images/flowers1.jpeg');
-  background-size: cover;
-  position: relative;
-  height: 100vh;
-}
-
-.scroll img {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  width:30px;
-}
-
-.hello img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 250px;
-  margin-top: -125px;
-  margin-left: -235px;
-}
-
-.about {
-  height: 55vh;
-  text-align: left;
-  max-width: 600px;
-  margin: 0px auto;
-}
-
-.about img {
-  float: left;
   margin: auto;
-  margin-right: 30px;
-  width: 200px;
-}
-
-h1 {
-  padding-top: 30px;
-  font-family: Georgia;
-  margin-bottom: 10px;
+  width: 90%;
 }
 
 p {
-  font-family: Georgia;
-  max-width: 600px;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  line-height: 25px;
 }
 
-.contact {
-  padding: 30px 0px;
+.container {
+  margin: auto;
+  padding-top: 50px;
   text-align: center;
-  background: rgba(225, 209, 144, 1);
+  max-width: 1000px;
 }
 
-.contact img {
-  padding-right: 10px;
-  width: 35px;
+.headline h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.about {
+  margin: auto;
+  max-width: 500px;
+  width: 80%;
+}
+
+.content_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  max-width: 700px;
+}
+
+.card {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ddd;
+  margin: 25px;
+  height: 300px;
+  width: 300px;
+}
+
+.card h3 {
+  font-family: 'Lato', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 275px;
+}
+
+.card .content_desc {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  max-width: 250px;
+}
+
+img {
+  padding: 5px;
+  width: 30px;
+}
+
+.icon_wrapper {
+  align-self: center;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid #ddd;
+  padding-top: 20px;
+  max-width: 400px;
+  width: 75%;
+}
+
+img:hover {
+  cursor: pointer;
 }
