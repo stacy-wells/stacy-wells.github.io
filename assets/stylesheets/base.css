@@ -73,7 +73,7 @@ a:hover {
 
 img {
   padding: 5px;
-  width: 30px;
+  width: 35px;
 }
 
 .icon_wrapper {
@@ -97,4 +97,8 @@ img:hover {
 .icon__play img {
   padding-bottom: 3px;
   width: 33px;
+}
+
+.icon_contact img {
+  width: 29px;
 }
